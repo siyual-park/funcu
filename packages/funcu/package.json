@@ -1,13 +1,12 @@
 {
   "name": "funcu",
-  "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
     "build": "npm run clean && npm run compile",
     "clean": "rm -rf ./dist",
-    "compile": "tsc",
+    "compile": "gulp",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "prepublishOnly": "cross-env NODE_ENV=production npm run build"
