@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
+  "type": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
     "build": "npm run clean && npm run compile",
